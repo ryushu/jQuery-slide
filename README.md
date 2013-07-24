@@ -4,33 +4,35 @@ jQuery plugin that can slide elements using touch event.
 
 ##Getting Started
 
-Basically html/css/javascript file look like this.
+Basically html/css/javascript files look like this.
 
 ###html
-
+```html:
 <div id="slide-elements">
   <div class="slide-child">slide-a</div>
   <div class="slide-child">slide-b</div>
   <div class="slide-child">slide-c</div>
 </div>
-
+```
 ###css
-\#slide-element{
+```css:
+#slide-element{
   width:100%;
   height:100px;
 }
 .slide-child{
   width:100%;
   height:100%;
-  visibility:hidden;  #set visibility:hidden;
-  position:absolute;  #set position:absolute;
+  visibility:hidden;  #required;
+  position:absolute;  #required;
 }
-
+```
 ###javascript
+```js:
 $(function(){
   $('selector').slide();
 });
-
+```
 ##Options
 this method have two paramate option and callback function.
 $('selector').slide(option,callback);
