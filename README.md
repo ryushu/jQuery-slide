@@ -35,7 +35,7 @@ $(function(){
 ```
 ##Options
 Type:PlainObject  
-This method have two paramater option and callback function.  
+This method have two paramaters option and callback function.  
 $('selector').slide(option,callback);  
 
 ###auto  
