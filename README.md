@@ -1,4 +1,4 @@
-#jQuey-slide
+#jQuery-slide
 =====
 jQuery plugin that can slide elements using swipe action on the mobile.
 
