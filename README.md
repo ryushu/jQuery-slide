@@ -37,8 +37,8 @@ $(function(){
 This method have two paramater option and callback function.
 $('selector').slide(option,callback);
 
-###option.auto : boolean
-  If elements are slid automatically or not.
+###option.auto : boolean [default:false]
+  Whether or not the elements are slid automatically.
   
 ###callback function
   Callback function called when slide action is ended.
