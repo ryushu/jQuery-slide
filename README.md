@@ -1,6 +1,6 @@
 #jQuey-slide
-===========
-jQuery plugin that can slide elements using touch event.
+=====
+jQuery plugin that can slide elements using swipe action on the mobile.
 
 ##Getting Started
 
