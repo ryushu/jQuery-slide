@@ -35,14 +35,14 @@ $(function(){
 ```
 ##Options
 Type:PlainObject  
-This method have two paramaters option and callback function.  
+This method have two paramaters. option and callback function.  
 $('selector').slide(option,callback);  
 
 ###auto  
 Type:Boolean (default:false)  
 Whether or not the elements are slid automatically.  
   
-##Callback
+###Callback
 Type:function  
 A function to be called when slide action is ended.  
 It is usefull when you change/set/get something value in the element showing in the window.  
