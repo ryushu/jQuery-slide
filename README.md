@@ -1,12 +1,12 @@
-#jQuery-slide
+# jQuery-slide
 =====
 jQuery plugin that can slide elements using swipe action on the mobile.
 
-##Getting Started
+## Getting Started
 
 Basically html/css/javascript files look like this.
 
-###html
+### html
 ```html:
 <div id="slide-elements">
   <div class="slide-child">slide-a</div>
@@ -14,7 +14,7 @@ Basically html/css/javascript files look like this.
   <div class="slide-child">slide-c</div>
 </div>
 ```
-###css
+### css
 ```css:
 #slide-element{
   width:100%;
@@ -27,22 +27,22 @@ Basically html/css/javascript files look like this.
   position:absolute;  #required;
 }
 ```
-###javascript
+### javascript
 ```js:
 $(function(){
   $('selector').slide();
 });
 ```
-##Options
+## Options
 Type:PlainObject  
 This method have two paramaters. option and callback function.  
 $('selector').slide(option,callback);  
 
-###auto  
+### auto  
 Type:Boolean (default:false)  
 Whether or not the elements are slid automatically.  
   
-###Callback
+### Callback
 Type:function  
 A function to be called when slide action is ended.  
 It is usefull when you change/set/get something value in the element showing in the window.  
